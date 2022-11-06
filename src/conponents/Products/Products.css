@@ -1,0 +1,38 @@
+.search_form {
+    margin-bottom: 20px;
+}
+
+.search_input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.search_input:last-child {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+.all_products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    grid-gap: 20px;
+}
+
+.pagination {
+    margin: 20px 0;
+}
+
+.pagination button {
+    margin-right: 10px;
+
+}
+
+.selectedNum {
+    background: #000;
+    color: white;
+}

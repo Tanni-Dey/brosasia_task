@@ -1,0 +1,34 @@
+.single_product {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.2s all ease;
+}
+
+.single_product:hover {
+    background-color: antiquewhite;
+}
+
+.single_product_img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.star {
+    width: 20px;
+}
+
+.single_product_btn {
+    border-radius: 10px;
+    border: none;
+    background: #000;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.2s all ease;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.single_product_btn:hover {
+    background-color: rgb(57, 57, 57);
+}
